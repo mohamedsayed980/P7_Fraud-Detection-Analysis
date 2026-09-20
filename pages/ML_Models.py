@@ -6,6 +6,7 @@ Regression  → Transaction_Amount
 Classification → Fraudulent  (class_weight='balanced' — MANDATORY)
 """
 # streamlit run "E:\FINAL PROJECTS\P7 — Fraud Detection Analysis\ML_Models.py"
+import streamlit as st
 
 import os, pathlib, warnings, time
 import numpy as np
@@ -15,7 +16,6 @@ import matplotlib.ticker as mticker
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import streamlit as st
 import psutil
 
 # ── sklearn ───────────────────────────────────────────────────
