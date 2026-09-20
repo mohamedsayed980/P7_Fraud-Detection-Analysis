@@ -321,7 +321,7 @@ with tabs[2]:
         fig2, ax2 = plt.subplots(figsize=(6,4))
         bp = ax2.boxplot([df_legit["Transaction_Amount"].dropna(),
                           df_fraud["Transaction_Amount"].dropna()],
-                         patch_artist=True, labels=["Legitimate","Fraudulent"])
+                         patch_artist=True,tick_labels=["Legitimate","Fraudulent"])
         bp["boxes"][0].set_facecolor(CLR["light"])
         bp["boxes"][1].set_facecolor("#fce4ec")
         for m in bp["medians"]: m.set_color(CLR["danger"]); m.set_linewidth(2)
@@ -789,7 +789,7 @@ with tabs[9]:
         with col2:
             fig2, ax2 = plt.subplots(figsize=(6,4))
             bp = ax2.boxplot([gA.dropna(), gB.dropna()], patch_artist=True,
-                             labels=["Normal","High Velocity"])
+                             tick_labels=["Normal","High Velocity"])
             bp["boxes"][0].set_facecolor(CLR["light"])
             bp["boxes"][1].set_facecolor("#fce4ec")
             for m in bp["medians"]: m.set_color(CLR["danger"]); m.set_linewidth(2)
