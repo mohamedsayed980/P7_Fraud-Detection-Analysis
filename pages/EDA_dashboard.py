@@ -4,6 +4,7 @@ Author : Mohamed · M3
 Dataset: Kaggle Fraud Detection · 51,000 transactions
 """
 # streamlit run "E:\FINAL PROJECTS\P7 — Fraud Detection Analysis\EDA_dashboard.py"
+import streamlit as st
 
 import pathlib, warnings
 import numpy as np
@@ -15,7 +16,7 @@ import plotly.graph_objects as go
 from scipy import stats
 from scipy.stats import zscore
 from statsmodels.stats.outliers_influence import variance_inflation_factor
-import streamlit as st
+
 
 warnings.filterwarnings("ignore")
 S = st.session_state
