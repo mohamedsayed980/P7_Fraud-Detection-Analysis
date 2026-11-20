@@ -47,7 +47,7 @@ st.markdown("""
 st.markdown("""
 <div class="hero">
   <h1>🔍 Fraud Detection Analysis</h1>
-  <p>End-to-end ML pipeline · 51,000 transactions · Kaggle Dataset · M3 Portfolio · Project 7 of 12</p>
+  <p>End-to-end ML pipeline · 51,000 transactions · Kaggle Dataset · M3 Portfolio · Project 7 of 13</p>
 </div>""", unsafe_allow_html=True)
 
 # ── STATS ROW ────────────────────────────────────────────────
